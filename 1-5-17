@@ -1,0 +1,35 @@
+from math import pi
+# Excercise 8
+# Starting money: $100 , interest rate 6%
+
+money = 100
+interest = 1.06
+print(money * interest)
+
+# Excercise 9
+# Square Area = 100
+
+area = 100
+side_length = area/10
+print("Side length is:",side_length)
+
+# Excercise 10
+# Radius = 1.5
+
+r = 1.5
+print((4/3*(pi*(r*r*r))))
+
+# Excercise 11
+
+print(1729//10)
+print(1729%10)
+print("The Value of 1729//10 is 172")
+print("The Value of 1729%10 is 9")
+
+# Excercise 12
+# Define "n" as a variable greater than or equal to 0
+
+n = int(input("This will become your 'n' value: "))
+y = n//10
+
+print(y%10)
