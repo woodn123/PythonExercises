@@ -1,0 +1,25 @@
+# Create constant variables.
+rate = 5.0
+initial_balance = 10000.0
+target = 2 * initial_balance
+
+# Initialize variables used with the loop.
+balance = initial_balance
+year = 0
+
+# Count the years required for the investment to double.
+while balance <= target :
+    year = year + 1
+    interest = balance * rate / 100
+    balance = balance + interest
+    print(balance)
+
+print("The investment doubled after", year, "years.")
+
+
+# Question 1: 22.5 years
+# Question 2: 8 years
+# Question 3: Add print(balance) into the while loop
+# Question 4: It makes the program more precise?
+# Question 5: 2, 4, 8, 16, 64, 128
+
