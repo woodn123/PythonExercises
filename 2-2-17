@@ -1,0 +1,75 @@
+import random
+
+# Question 1
+
+for i in range(10):
+    print('Nicholas Wood')
+
+print('Done!')
+
+# Question 2
+
+for i in range(20):
+    print('Red')
+    print('Gold')
+
+# Question 3
+
+for i in range(2,101,2):
+    print(i)
+
+# Question 4
+
+i = 11
+while i >=1:
+    i = i - 1
+    print(i)
+print('Blast Off')
+
+# Question 5 
+# The math within the for loop is inccorect, the final print is incorrect
+# and the input is wrong
+
+# Question 6
+x = random.randint(0,10)
+print(x)
+
+# Question 7
+y = random.randint(0,10)
+print(float(y))
+
+# Question 8 
+print('Hello User, you will be asked to input 7 numbers')
+total = 0
+for i in range(7):
+    x = float(input('Input a value here: '))
+    total = total+x
+print(total)
+
+# Question 9
+for i in range(50):
+    x = random.randint(0,1)
+    if x == 0:
+        print('Heads')
+    else:
+        print('Tails')
+
+# Question 10
+
+x = random.randint(1,3)
+y = int(input('Enter a value, 1, 2, or 3: '))
+
+if y == 1:
+        print('Rock')
+elif y == 2:
+        print('Paper')
+elif y == 3:
+        print('Scissors')
+if x == 1:
+    print('Rock')
+elif x == 2:
+    print('Paper')
+elif x == 3:
+    print('Scissors')
+
+        
