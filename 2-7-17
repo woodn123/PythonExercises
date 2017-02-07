@@ -1,0 +1,39 @@
+import random
+
+name = input('Hola user, what is your name? ')
+print('')
+print(name, ',thats such a nice name.')
+print('')
+print('Today,', name + ' you will be participating in my guessing game')
+print('')
+
+total_guesses = 0
+
+number = random.randrange(101)
+
+print('I am thinking of a number between 1 and 100')
+print('')
+print('You must guess the number that I am thinking of.')
+print('')
+
+while total_guesses < 5:
+    a = int(input('What number am I thinking of? '))
+    total_guesses = total_guesses + 1
+    if a > number:
+        print('That Values is to high')
+    elif a < number:
+        print('That Value is to low')
+    elif a == number:
+        print('Correct, Good Job!')
+        break
+    
+if total_guesses == 5:
+    print('')
+
+print('The amount of guesses that it took you was: ', total_guesses)
+        
+    
+    
+    
+
+
