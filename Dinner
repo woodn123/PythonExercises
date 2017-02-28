@@ -1,0 +1,30 @@
+# The objective of this family dinner is to design the sandwhich the user wants
+
+print('Pick One from the following ingredients: \n\nBacon\nHam\nCheese\nTurkey\nRoast Beef')
+print()
+ingredient_a = input(str('Choose your ingredient: '))
+
+print('Pick Another One for sandwhich B from the following ingredients: \n\nBacon\nHam\nCheese\nTurkey\nRoast Beef')
+print()
+ingredient_b = input(str('Choose your ingredient: '))
+                  
+def final_sandwhich():
+    print('Slice the bread')
+    print('Toast the bread')
+    print('Layer the ingredients')
+    print('Create the sandwhich')
+    print('Slice in half')
+    print()
+
+def sandwhich_a():
+    final_sandwhich()
+    sandwhich_a = 'A Delicious {} Sandwhich'.format(ingredient_a)
+    return sandwhich_a
+
+def sandwhich_b():
+    final_sandwhich()
+    sandwhich_b = 'A Delicious {} Sandwhich'.format(ingredient_b)
+    return sandwhich_b
+
+print(sandwhich_a())
+print(sandwhich_b())
