@@ -1,0 +1,35 @@
+#1
+def trianglearea(x,y):
+    area = (x*y)/2
+    return area
+print('A triangle with a base of 3 and a height of 8 has an area of',trianglearea(3,8))
+
+#2
+def temperature(x):
+   celsius = x*.32
+   return celsius
+print('Converted Temperature:',temperature(95))
+
+#3
+def squarearea (x):
+    square = x **4
+    return square
+print('The area of the square is:',squarearea(.5))
+
+#4
+# The first sequence will return 6.0
+# The second sequence will return 25
+# The third sequence will return 7
+
+#5
+# A recursive function is one that uses itself to solve a problem.
+# How advanced can programs get with recursive functions
+
+#6
+
+#35: A 3 leveled triangle
+#36: it will print 7
+#37: it will print 1
+
+def triarea():
+    
